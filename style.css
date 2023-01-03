@@ -34,7 +34,6 @@ body {
 
 .card .top .userDetails .profile_img {
   position: relative;
-
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -54,7 +53,7 @@ body {
 .card .top .userDetails h3 {
   color: #4d4d4f;
   font-weight: 500;
-  line-height: 1em;
+  margin: 0px;
 }
 
 .blue {
@@ -101,6 +100,7 @@ body {
   display: flex;
   margin-right: 20px;
   font-size: 0.75em;
+  align-items: center;
 }
 
 .down {
@@ -121,4 +121,12 @@ body {
   padding: 5px;
   color: #fff;
   border-radius: 10%;
+  cursor: pointer;
+  border-color: white;
+  box-shadow: none;
+  margin-left: 40px;
+}
+
+.top1 {
+  margin-top: 30px;
 }
